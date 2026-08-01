@@ -7,11 +7,11 @@
     <meta name="description" content="1-12年级（含高中）语数英智能学习平台，含题库、错题本、学习统计、智能复习系统、答题分析">
     
     <!-- PWA -->
-    <link rel="manifest" href="/manifest.json">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="星际学堂">
@@ -3144,7 +3144,7 @@
             </svg>
         </div>
         <div class="welcome-card">
-            <h1>星际学堂 <span style="font-size:0.4em;background:linear-gradient(135deg,var(--accent-orange),var(--gold));color:white;padding:2px 10px;border-radius:8px;vertical-align:middle;font-weight:700">V10.2</span></h1>
+            <h1>星际学堂 <span style="font-size:0.4em;background:linear-gradient(135deg,var(--accent-orange),var(--gold));color:white;padding:2px 10px;border-radius:8px;vertical-align:middle;font-weight:700">V10.3</span></h1>
             <p class="subtitle">智能学习 · 数据驱动 · 个性成长</p>
             <div class="user-welcome" id="user-welcome">
                 <div class="user-avatar" id="user-avatar">U</div>
@@ -14516,7 +14516,7 @@ async function unlockUserAntiAddiction(username) {
 <!-- PWA 启动画面 -->
 <div class="pwa-splash" id="pwa-splash">
     <div class="pwa-splash-icon">🚀</div>
-    <div class="pwa-splash-text">星际学堂 V10.2</div>
+    <div class="pwa-splash-text">星际学堂 V10.3</div>
     <div class="pwa-splash-spinner"></div>
 </div>
 
@@ -14527,7 +14527,7 @@ let deferredPrompt = null;
 // Service Worker 注册
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js', { scope: '/' })
+        navigator.serviceWorker.register('sw.js')
             .then(reg => {
                 console.log('[PWA] SW registered:', reg.scope);
                 // 检查更新

@@ -6,12 +6,12 @@ const DYNAMIC_CACHE = 'staracademy-dynamic-' + CACHE_VERSION;
 
 // 核心资源（首次安装即缓存）
 const STATIC_ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png',
-  '/favicon.svg'
+  './',
+  './index.html',
+  './manifest.json',
+  './icon-192.png',
+  './icon-512.png',
+  './favicon.svg'
 ];
 
 // ==================== 安装：预缓存核心资源 ====================
@@ -138,8 +138,8 @@ self.addEventListener('push', (event) => {
   const data = event.data.json();
   const options = {
     body: data.body || '该学习啦！今日目标还未完成～',
-    icon: '/icon-192.png',
-    badge: '/icon-192.png',
+    icon: 'icon-192.png',
+    badge: 'icon-192.png',
     vibrate: [100, 50, 100],
     data: { url: data.url || '/' },
     actions: [

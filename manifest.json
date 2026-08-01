@@ -2,8 +2,8 @@
   "name": "星际学堂 V10.3 - 智能学习平台",
   "short_name": "星际学堂",
   "description": "1-12年级（含高中）语数英智能学习平台，含题库、错题本、学习统计",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": ".",
+  "scope": ".",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#FFF8F0",
@@ -17,25 +17,25 @@
   ],
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icon-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icon-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icon-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -46,10 +46,10 @@
       "name": "语文",
       "short_name": "语文",
       "description": "进入语文学习",
-      "url": "/?subject=chinese",
+      "url": "?subject=chinese",
       "icons": [
         {
-          "src": "/icon-192.png",
+          "src": "icon-192.png",
           "sizes": "192x192"
         }
       ]
@@ -58,10 +58,10 @@
       "name": "数学",
       "short_name": "数学",
       "description": "进入数学学习",
-      "url": "/?subject=math",
+      "url": "?subject=math",
       "icons": [
         {
-          "src": "/icon-192.png",
+          "src": "icon-192.png",
           "sizes": "192x192"
         }
       ]
@@ -70,10 +70,10 @@
       "name": "英语",
       "short_name": "英语",
       "description": "进入英语学习",
-      "url": "/?subject=english",
+      "url": "?subject=english",
       "icons": [
         {
-          "src": "/icon-192.png",
+          "src": "icon-192.png",
           "sizes": "192x192"
         }
       ]
