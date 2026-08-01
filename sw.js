@@ -1,6 +1,6 @@
 // 星际学堂 V10.3 Service Worker
 // 版本号（更新时递增）
-const CACHE_VERSION = 'v10.3.0';
+const CACHE_VERSION = 'v10.3.1';
 const STATIC_CACHE = 'staracademy-static-' + CACHE_VERSION;
 const DYNAMIC_CACHE = 'staracademy-dynamic-' + CACHE_VERSION;
 
